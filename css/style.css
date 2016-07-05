@@ -1,14 +1,26 @@
-a{
-  color:rgb(100,901,10); text-decoration: none;
-}
-#abc {
+
+body {
+  background:#d5d1ce;
+  width: 70%;
+  margin: auto;
   font-family: sans-serif;
-  background-color: blue;
 }
-.abc{
-  font-family: sans-serif;
-  background-color: blue;
- position: relative;
- text-align: center;
- list-style-position:inside
+.left {
+  float: left;
+  width: 50%;
+  background: #9f7860;
+  margin-left: 8px;
+
+}
+.right {
+  float: right;
+  width: 50%;
+  background: #ab5473;
+  margin-left: 8px;
+
+}
+blockquote {
+  border: 1px solid white ;
+  border-color:solid white;
+  text-align: center;
 }
