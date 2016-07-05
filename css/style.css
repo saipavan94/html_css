@@ -23,4 +23,59 @@ blockquote {
   border: 1px solid white ;
   border-color:solid white;
   text-align: center;
+  margin: 4px 0 0 0;
+}
+nav a{
+  text-decoration: none;
+  font-family: italic;
+  color: gray;
+  padding-right: 15px;
+}
+form li{
+  list-style:none;
+  text-decoration: none;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.un, .cb{
+  float: left;
+  width: 40%;
+  padding-left: 10%;
+
+}
+.pass, .ra{
+  width: 40%;
+  padding-right: 10%;
+  float: left;;
+}
+.comm{
+  clear: both;
+  padding-top: 20px;
+  padding-left: 20%;
+}
+textarea{
+  width: 300px;
+  height: 80px;
+}
+.sub{
+  text-align: center;
+}
+
+.commlable{
+  float: left;
+}
+
+label{
+  cursor: pointer;
+}
+.cts
+{
+  text-indent: -9999px;
+  background: url("../images/cts.png") no-repeat;
+  width: 85px;
+  height: 85px;
+}
+.cts:hover{
+  cursor: pointer;
+  
 }
